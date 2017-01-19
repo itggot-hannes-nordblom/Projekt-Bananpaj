@@ -1,34 +1,63 @@
 body{
-
+    background-image: url(../img/banana-icon.png);
+    background-color: #ffeb54;
 }
-#banner{
-    width: ;
-}
-.navigation{
+.mainbox{
+    margin: auto;
     display: flex;
     flex-direction: column;
-    min-width: 100%;
+    width: 500px;
+    border: 3px solid black;
+    background-color: yellow;
+    border-radius: 20px;
+    align-items: center;
 }
-.box{
-    color: white;
-    border: 1px solid white;
+header h2{
     text-align: center;
-    font-size: 100px;
-    font-family: sans-serif;
-    background-color: black;
+    padding: 0px 10px 0px 10px;
 }
-.box a{
+#banner{
+    font-size: 50px;
+    font-family: sans-serif; 
+}
+.navigation{
+    flex-direction: column;
+    min-width: 100%;
+    
+}
+.box{ 
     text-decoration: none;
+    color: white;
+    border: 1px solid yellow;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    background-color: black;
+    
+}
+nav a .box{
+    text-decoration-style: none;
+    color: yellow; 
 }
 .pics{
-    min-width: 100%;
+    display: flex;
+    height: auto;
     flex-direction: column;
+    font-size: 20px;
 }
 main, img{
-    min-width: 100%;
+    max-width: 400px;
     margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 footer{
     font-family: Comic Sans MS;
-    font-size: 40px;
+    font-size: 20px;
+}
+.colorchange{
+    background-color: darkgrey;
+}
+.gone{
+    opacity: 0;
 }
